@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservgestaocursosextensaoApplication<microservcolegio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.univille.microservgestaocursosextensao.MicroservgestaocursosextensaoApplication",
+            "projectName": "microservgestaocursosextensao",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+//            "vmArgs": ["-Djavax.net.ssl.trustStore=/workspaces/tapr-2024-turmaa-colegio-java/native.jks",
+//                       "-Djavax.net.ssl.trustStorePassword=univille"]
+
+        }
+    ]
+}
