@@ -2,7 +2,18 @@ package br.univille.microservgestaocursosextensao.CadastroProjetos.entity;
 
 import java.time.LocalDate;
 
+import org.springframework.data.annotation.Id;
+
+import com.azure.spring.data.cosmos.core.mapping.Container;
+import com.azure.spring.data.cosmos.core.mapping.GeneratedValue;
+import com.azure.spring.data.cosmos.core.mapping.PartitionKey;
+
+@Container(containerName = "projeto", autoCreateContainer = true)
 public class Projeto {
+
+    @Id
+    @PartitionKey
+    @GeneratedValue
     private String id;
     private String nome;
     private LocalDate dataInicio;
