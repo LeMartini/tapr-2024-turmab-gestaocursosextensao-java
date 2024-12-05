@@ -50,9 +50,4 @@ public class SolicitacaoBolsa {
     public void setStatusSolicitacao(String statusSolicitacao) {
         this.statusSolicitacao = statusSolicitacao;
     }
-
-    public Object getNome() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getNome'");
-    }
 }
