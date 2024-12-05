@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MicroservgestaocursosextensaoApplication",
+            "request": "launch",
+            "mainClass": "br.univille.microservgestaocursosextensao.MicroservgestaocursosextensaoApplication",
+            "projectName": "microservgestaocursosextensao"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservcolegioApplication<microservcolegio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.univille.microservcolegio.MicroservcolegioApplication",
+            "projectName": "microservcolegio",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
